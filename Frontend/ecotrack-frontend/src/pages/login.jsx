@@ -59,14 +59,12 @@ function Login() {
 
         {/* Submit Button */}
         <button
-  type="submit"
-  className="absolute w-[349px] h-[88px] left-[586px] top-[573px] 
-             bg-[#3F6A0A] text-white text-[30px] font-bold 
-             rounded-[75px] flex items-center justify-center 
-             hover:bg-[#345a08] transition duration-200"
->
-  Start Exploring
-</button>
+          type="submit"
+          className="absolute w-[349px] h-[88px] left-[586px] top-[573px] bg-[#3F6A0A] text-white text-[32px] font-bold rounded-[75px]"
+        >
+          Start Exploring
+        </button>
+
       </form>
       {/* 🔹 FORM END */}
 
@@ -103,7 +101,7 @@ function Login() {
           Sign up 
         </span>
       </p>
-<p className="absolute left-[890px] top-[820px] text-[20px]">
+<p className="absolute left-[890px] top-[820px] text-[20px] font-semibold text-black">
         here
       </p>
     </div>
