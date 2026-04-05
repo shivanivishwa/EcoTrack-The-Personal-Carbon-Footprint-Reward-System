@@ -168,6 +168,7 @@ function Signup() {
           className="absolute w-[200px] h-[62px] left-[665px] top-[768px]
                      bg-[#3F6A0A] text-white rounded-[90px] text-[22px] font-bold
                      hover:bg-[#2e5207]"
+                     
         >
           Sign Up
         </button>
@@ -179,7 +180,7 @@ function Signup() {
         Already have an account?{" "}
         <span
           className="text-blue-600 cursor-pointer font-semibold"
-          onClick={() => navigate("/")}
+          onClick={() => navigate("/login")}
         >
           Login
         </span>
